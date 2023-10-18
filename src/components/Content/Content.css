@@ -1,0 +1,27 @@
+/* Card.css */
+.card {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+  }
+  
+  .card-title {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .card-content {
+    font-size: 16px;
+  }
+  .responsive-image-container {
+    text-align: center; /* Center-align the image within the container */
+  }
+  
+  .responsive-image {
+    max-width: 100%; /* Ensure the image does not exceed its container width */
+    max-height: 70%; /* Allow the image to scale proportionally */
+  }

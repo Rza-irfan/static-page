@@ -1,0 +1,17 @@
+.graph{
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    height: 15rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.responsive-image-container {
+    text-align: center; /* Center-align the image within the container */
+  }
+  
+  .responsive-image {
+    max-width: 100%; /* Ensure the image does not exceed its container width */
+    max-height: 70%; /* Allow the image to scale proportionally */
+  }
